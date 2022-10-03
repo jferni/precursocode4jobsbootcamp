@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    
+        let palabra = prompt("Introduce parabra en minusculas");
+
+        let numeroletras = palabra.length;
+
+        let mayuscula = numeroletras / 2;
+
+        let cambiomayuscula1 = palabra.substring(0, mayuscula)
+        let cambiomayuscula2 = palabra.substring(mayuscula, Infinity)
+
+        let palabramayuscula1 = cambiomayuscula1.toLocaleUpperCase();
+        let palabramayuscula2 = cambiomayuscula2.toLocaleLowerCase();
+
+        let correcto = palabramayuscula1+palabramayuscula2
+
+        console.log(correcto);
+       
+        
+        
+    </script>
+</body>
+
+</html>
